@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import TwitchTVDetail
 
 class ViewController: UIViewController {
 
@@ -20,5 +21,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func buttonPressed(_ sender: UIButton) {
+    }
 }
 
