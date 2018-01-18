@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TwitchTVDetail_Example' do
+  pod 'TwitchTVDetail', :path => '../'
+
+  target 'TwitchTVDetail_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
